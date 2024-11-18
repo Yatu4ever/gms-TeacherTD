@@ -5,4 +5,8 @@ if (base_health <= 0) {
 	instance_destroy(self)
 	instance_destroy(other)
 }
-log(base_health)
+log(base_health);
+
+if (other.object_index == Kaugummi) {
+	
+}
