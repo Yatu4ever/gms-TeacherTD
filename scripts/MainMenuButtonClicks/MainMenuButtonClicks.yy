@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"MainMenuButtonClicks",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MainMenuButtonClicks",
+  "parent":{
+    "name":"rmMain",
+    "path":"folders/Rooms/rmMain.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
