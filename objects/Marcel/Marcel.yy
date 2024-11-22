@@ -10,6 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"bullet_type","path":"objects/BaseTower/BaseTower.yy",},"resource":{"name":"Lineal","path":"objects/Lineal/Lineal.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lineal",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"cooldown_max","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"45",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"range","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"base_health","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"max_health","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
   ],
   "parent":{
     "name":"Towers",

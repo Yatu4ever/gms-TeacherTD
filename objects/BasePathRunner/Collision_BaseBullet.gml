@@ -7,6 +7,3 @@ if (base_health <= 0) {
 }
 log(base_health);
 
-if (other.object_index == Kaugummi) {
-	
-}

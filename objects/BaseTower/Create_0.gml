@@ -77,5 +77,48 @@ draw_range_circle = function() {
 }
 
 
+// Function to modify health and check for destruction
+modify_health_tower = function(damage) {
+    base_health += damage; // Reduce health by the damage amount
+
+    // Check if health is 0 or less
+    if (base_health <= 0) {
+        instance_destroy()
+		
+    }
+};
+
+draw_health_bar = function() {
+    // Fixed health bar width and height
+    var bar_width = 140; 
+    var bar_height = 14;
+
+    // Calculate health bar position
+    var bar_x = x + sprite_width / 2 - bar_width / 2; // Center the bar horizontally
+    var bar_y = y - sprite_height / 2 - 6; // Position it slightly above the entity
+
+    // Calculate the health percentage
+    var health_percent = base_health / max_health;
+
+    // Draw the background (gray bar)
+    draw_set_color(c_gray);
+    draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
+
+    // Draw the current health (green bar)
+    draw_set_color(c_lime);
+    draw_rectangle(bar_x, bar_y, bar_x + bar_width * health_percent, bar_y + bar_height, false);
+
+    // Draw the health points as text within the bar (e.g., "809 / 1200")
+    draw_set_font(font_small); // Use a small font
+    draw_set_color(c_black);  // Set text color to black
+    draw_set_halign(fa_center); // Center the text horizontally
+    draw_set_valign(fa_middle); // Center the text vertically
+    draw_text(bar_x + bar_width / 2, bar_y + bar_height / 2, string(base_health) + " / " + string(max_health));
+
+    // Reset the drawing color
+    draw_set_color(c_white);
+};
+
+
 
 

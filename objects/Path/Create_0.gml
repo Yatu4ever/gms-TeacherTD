@@ -30,21 +30,22 @@ if(exit_w){definedDirections[i] = "exit_w"; i++}
 
 	if(definedDirections_shuffled[0] == "exit_n")
 	{
-		log($"{BasePathRunner.SPEED} in the direction {definedDirections_shuffled[0]}")
+		
 			_who.hspeed = 0;
 			_who.vspeed = -BasePathRunner.SPEED;
+			log($"{BasePathRunner.SPEED} in the direction {definedDirections_shuffled[0]}")
 	} else if (definedDirections_shuffled[0] == "exit_s"){
-		log($"{BasePathRunner.SPEED} in the direction {definedDirections_shuffled[0]}")
 			_who.hspeed = 0;
 			_who.vspeed = BasePathRunner.SPEED;
+			log($"{BasePathRunner.SPEED} in the direction {definedDirections_shuffled[0]}")
 	}else if (definedDirections_shuffled[0] == "exit_e") {
-		log($"{BasePathRunner.SPEED} in the direction {definedDirections_shuffled[0]}")
 			_who.hspeed = BasePathRunner.SPEED;
 			_who.vspeed = 0;
+			log($"{BasePathRunner.SPEED} in the direction {definedDirections_shuffled[0]}")
 	} else if (definedDirections_shuffled[0] == "exit_w"){
-		log($"{BasePathRunner.SPEED} in the direction {definedDirections_shuffled[0]}")
 			_who.hspeed = -BasePathRunner.SPEED;
 			_who.vspeed = 0;
+			log($"{BasePathRunner.SPEED} in the direction {definedDirections_shuffled[0]}")
 	} else {
 		show_debug_message("**ERROR NO DIRETICON**")
 			_who.hspeed = 0;

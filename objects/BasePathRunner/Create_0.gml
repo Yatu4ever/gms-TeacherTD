@@ -4,6 +4,12 @@ event_inherited()
 
 //health
 
+my_target				= undefined;
+my_distance				= undefined;
+closest_enemy			= undefined;
+circle_color			= c_red;
+
+cooldown_timer			= 0;
 
 
 
@@ -30,12 +36,20 @@ follow_path = function() {
 	previous_other = other;
 	extra_distance = MAP_GIRD_SIZE / 2 + speed;
 }
-
+continue_movement = function(){
+previous_other.set_direction(self);
+}
 change_now = function() {
 	align_to_gird();
 	log($"Self Change now method: {self}")
-	previous_other.set_direction(self);
+	continue_movement();
+	
 }
+
+go_on_cooldown = function(_for){
+	alarm_set(0, _for)
+}
+
 
 spawn_new_enemie = function(){
 	// log($"Object index: {object_index}");
@@ -109,3 +123,36 @@ draw_exam_status = function() {
     var display_text = string(global.exams) + " von " + string(PASSAGES) + " Runden";
     draw_text(x_pos, y_pos, display_text);
 };
+
+find_closest_enemy = function(){
+	var closest_enemy		= undefined;
+	var closest_distance	= 100000;
+	var dist;
+	
+	with(BasePathRunner) {
+		dist = point_distance(other.x, other.y,x,y);
+		if (dist < closest_distance){
+			closest_distance = dist;
+			closest_enemy = self;
+		}
+	}	
+	
+	my_target = closest_enemy;
+	my_distance = closest_distance;
+}
+
+
+follow_enemy = function() {
+	find_closest_enemy();
+	image_angle = my_target != undefined ?
+		point_direction(x, y, my_target.x, my_target.y):
+		0
+	;
+}
+
+check_enemy_range = function() {
+	find_closest_enemy();
+    circle_color = my_distance <= range * MAP_GIRD_SIZE ? c_green : c_red;
+	shoot();
+
+}

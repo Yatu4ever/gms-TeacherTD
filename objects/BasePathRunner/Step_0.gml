@@ -17,4 +17,10 @@ global.y = y;
 
 
 
+follow_enemy();
+check_enemy_range();
+update_cooldown();
+
+
+
 

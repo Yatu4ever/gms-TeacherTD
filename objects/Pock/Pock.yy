@@ -8,6 +8,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BasePathRunner","path":"objects/BasePathRunner/BasePathRunner.yy",},"propertyId":{"name":"SPEED","path":"objects/BasePathRunner/BasePathRunner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BasePathRunner","path":"objects/BasePathRunner/BasePathRunner.yy",},"propertyId":{"name":"base_health","path":"objects/BasePathRunner/BasePathRunner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"110",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BasePathRunner","path":"objects/BasePathRunner/BasePathRunner.yy",},"propertyId":{"name":"max_health","path":"objects/BasePathRunner/BasePathRunner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"110",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BasePathRunner","path":"objects/BasePathRunner/BasePathRunner.yy",},"propertyId":{"name":"SPEED_Factor","path":"objects/BasePathRunner/BasePathRunner.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"enemies",

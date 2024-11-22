@@ -8,7 +8,9 @@
   "name":"Samuel",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"bullet_type","path":"objects/BaseTower/BaseTower.yy",},"resource":{"name":"Kaugummi","path":"objects/Kaugummi/Kaugummi.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Kaugummi",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"cooldown_max","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"42",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"cooldown_max","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"base_health","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"130",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"max_health","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"130",},
   ],
   "parent":{
     "name":"Towers",

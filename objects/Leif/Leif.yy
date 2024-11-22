@@ -9,6 +9,9 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"bullet_type","path":"objects/BaseTower/BaseTower.yy",},"resource":{"name":"PapierKugel","path":"objects/PapierKugel/PapierKugel.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"PapierKugel",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"cooldown","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"cooldown_max","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"base_health","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"110",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"max_health","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"110",},
   ],
   "parent":{
     "name":"Towers",

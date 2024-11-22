@@ -9,6 +9,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseBullet","path":"objects/BaseBullet/BaseBullet.yy",},"propertyId":{"name":"bullet_speed","path":"objects/BaseBullet/BaseBullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"25",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseBullet","path":"objects/BaseBullet/BaseBullet.yy",},"propertyId":{"name":"bullet_damage","path":"objects/BaseBullet/BaseBullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"35",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseBullet","path":"objects/BaseBullet/BaseBullet.yy",},"propertyId":{"name":"bullet_name","path":"objects/BaseBullet/BaseBullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Lineal\"",},
   ],
   "parent":{
     "name":"Bullets",

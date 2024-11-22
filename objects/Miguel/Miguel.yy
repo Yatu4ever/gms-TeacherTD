@@ -9,6 +9,8 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"cooldown_max","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"range","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"7",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"base_health","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseTower","path":"objects/BaseTower/BaseTower.yy",},"propertyId":{"name":"max_health","path":"objects/BaseTower/BaseTower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
   ],
   "parent":{
     "name":"Towers",
