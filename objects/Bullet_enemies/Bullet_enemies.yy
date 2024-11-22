@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
   "%Name":"Bullet_enemies",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Bullet_enemies",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BaseBullet","path":"objects/BaseBullet/BaseBullet.yy",},"propertyId":{"name":"bullet_speed","path":"objects/BaseBullet/BaseBullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Bullets",
     "path":"folders/Objects/Bullets.yy",
   },
-  "parentObjectId":{
-    "name":"BaseBullet",
-    "path":"objects/BaseBullet/BaseBullet.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,7 +26,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"bullet_speed","filters":[],"listItems":[],"multiselect":false,"name":"bullet_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"bullet_damage","filters":[],"listItems":[],"multiselect":false,"name":"bullet_damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
